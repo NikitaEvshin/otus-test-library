@@ -1,16 +1,18 @@
 {
-    "name": "nikitaevshin/test-library",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Nikitaevshin\\TestLibrary\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Nikita Evshin",
-            "email": "nsevshin@avito.ru"
-        }
-    ],
-    "require": {}
+  "name": "nikitaevshin/test-library",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Nikitaevshin\\TestLibrary\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nikita Evshin",
+      "email": "nsevshin@avito.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  }
 }
